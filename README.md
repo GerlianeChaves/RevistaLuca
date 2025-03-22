@@ -1,14 +1,11 @@
 <h1 align="center">Revista Digital LUCA</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML-5-orange?style=plastic&logo=html5
-  " alt="HTML">
-  <img src="https://img.shields.io/badge/CSS-3-blue?style=plastic&logo=css3
-  " alt="CSS">
-  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=plastic&logo=javascript
-  " alt="JS">
+  <img src="https://img.shields.io/badge/HTML-5-orange?style=plastic&logo=html5" alt="HTML">
+  <img src="https://img.shields.io/badge/CSS-3-blue?style=plastic&logo=css3" alt="CSS">
+  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=plastic&logo=javascript" alt="JS">
 </p>
-s
+
 <p align="center">
   <img src="docs/LUCA.gif" alt="Logo LUCA" width="150">
 </p>
@@ -18,11 +15,11 @@ s
 Este projeto é um site de reportagens interativo que exibe matérias organizadas em um layout dinâmico, sobre o cinema independente nacional.
 As reportagens possuem imagens clicáveis que direcionam para o conteúdo completo.
 
-## Tecnologias Utilizadas
+<!--## Tecnologias Utilizadas
 
 <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML5"> 
 <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3"> 
-<img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript"> 
+<img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript"--> 
 
 ## 📁 Estrutura do Projeto
 
