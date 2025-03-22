@@ -1,6 +1,15 @@
 <h1 align="center">Revista Digital LUCA</h1>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/HTML-5-orange?style=plastic&logo=html5
+  " alt="HTML">
+  <img src="https://img.shields.io/badge/CSS-3-blue?style=plastic&logo=css3
+  " alt="CSS">
+  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=plastic&logo=javascript
+  " alt="JS">
+</p>
+s
+<p align="center">
   <img src="docs/LUCA.gif" alt="Logo LUCA" width="150">
 </p>
 
