@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro LUCA</title>
+
+    <!---Normalize CSS-->
+    <link rel="stylesheet" href="/css/cadastrar.css">
+
+</head>
+<body>
+    <!-- VIDEO DE FUNDO -->
+    <video autoplay muted loop id="bgVideo">
+        <source src="/docs/Trailer _TODOS OS INSCRITOS DE NESS_.mp4" type="video/mp4">
+    </video>
+    
+    <!-- LOGO LUCA -->
+    <div class="logoCadastro">
+        <img src="/docs/LUCA.gif" alt="Logo LUCA">
+    </div>
+
+    <!-- TELA DE CADASTRO -->
+    <div class="cadastro">
+        <form action="/login.html">
+            <input type="text" id="nome" name="nome" placeholder="Nome" required>
+            <input type="text" id="email" name="email" placeholder="E-mail" required>
+            <input type="password" id="senha" name="senha" placeholder="Crie uma Senha" required>
+            <input type="password" id="password" name="password" placeholder="Confirme sua Senha" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+    
+</body>
+</html>

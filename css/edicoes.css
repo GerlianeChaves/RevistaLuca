@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* LOGO */
+.logoEd {
+    margin-top: 0.8rem;
+    background-color: black; /* Fundo preto */
+    text-align: center;
+}
+
+.logoEd img {
+    max-width: 10%;
+    max-height: 10%;
+    margin: 0 auto;
+}
+
+/* EDIÇÕES  */
+.edSection{
+    background-color: black;
+    padding: 2%;
+}
+
+.edSection img{
+    max-width: 75%; 
+    max-height: 70%;
+    /* margin: 10rem 10rem 10rem 10rem; */
+    /* margin: 0 auto; */
+}

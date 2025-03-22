@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* LOGO */
+.logoStreaming {
+    margin-top: 0.8rem;
+    background-color: black; /* Fundo preto */
+    text-align: center;
+}
+
+.logoStreaming img {
+    max-width: 10%;
+    max-height: 10%;
+    margin: 0 auto;
+}
+
+/* EDIÇÕES  */
+.generos{
+    background-color: black;
+    
+    /* padding: 2%; */
+}
+
+.generos img{
+    max-width: 70%; 
+    max-height: 70%;
+    margin: 1rem 50rem;
+    /* margin: 10rem 10rem 10rem 10rem; */
+    /* margin: 0 auto; */
+}
+
+.generos h1{
+    color: white;
+    margin: 2rem;
+}

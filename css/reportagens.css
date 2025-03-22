@@ -1,0 +1,51 @@
+body {
+    /* background: linear-gradient(to bottom, #000, #111); Adiciona um gradiente sutil de preto (#000) a um preto ligeiramente mais escuro (#111) */
+
+    background-color: black;
+    margin: 8%;
+    padding: 0;
+    /* overflow-x: hidden; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logoHome {
+    text-align: center; /* Alinhar o conteúdo no centro horizontalmente */
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* z-index: 2; soprepor o carrossel */
+}
+
+.logoHome img{
+    max-width: 10%; 
+    max-height: 10%;
+    margin: 0 auto;
+}
+
+/* <!-- CARDS REPORTAGENS --> */
+.materia {
+    width: 30%;
+    margin: 1%;
+    float: left;
+}
+
+.materia img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    box-shadow: 0 0 20px rgb(255, 255, 255, 0.3); /* Adicione a sombra desejada */
+}
+
+.materia a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#conteudo-materia {
+    display: none;
+}

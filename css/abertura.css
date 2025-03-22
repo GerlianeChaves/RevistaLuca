@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    margin: 0;
+    overflow: hidden;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    /* opacity: 50%; */
+}
+
+.abertura {
+    text-align: center; /* Alinhar o conteúdo no centro horizontalmente */
+}
+
+.abertura img{
+    max-width: 50%; 
+    max-height: 50%;
+    margin: 0 auto;
+}

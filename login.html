@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUCA Login</title>
+
+    <!---Normalize CSS-->
+    <link rel="stylesheet" href="/css/login.css">
+    <!-- FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+    <!-- VIDEO DE FUNDO -->
+    <video autoplay muted loop id="bgVideo">
+        <source src="/docs/Trailer _TODOS OS INSCRITOS DE NESS_.mp4" type="video/mp4">
+    </video>
+    
+    <!-- LOGO LUCA -->
+    <div class="logoLogin">
+        <img src="/docs/LUCA.gif" alt="Logo LUCA">
+    </div>
+
+    <!-- TELA DE LOGIN -->
+    <div class="login">
+        <form action="/streaming.html">
+            <!-- <label for="username"></label> -->
+            <input type="text" id="username" name="username" placeholder="Usuário" required>
+
+            <!-- <label for="password">Senha:</label> -->
+            <input type="password" id="password" name="password" placeholder="Senha" required>
+
+            <div class="buttonlogin">
+                <a href="/streaming.html" target="_blank" class="assinarAgora">Entrar</a>
+            </div>
+            <!-- <button type="submit">Entrar</button> -->
+
+            <!-- <label>Cadastrar</label> -->
+            <div class="infos">
+                <a href="/cadastrar.html" class="link">Cadastrar</a>
+                <a href="/senha.html" class="link">Esqueci a Senha</a>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento LUCA</title>
+
+    <!---Normalize CSS-->
+    <link rel="stylesheet" href="/css/pagamento.css">
+    <!-- FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="pagamento">
+        <form>
+            <label for="user">Informações Pessoais</label>
+            <input type="text" id="username" name="username" placeholder="Nome Completo" required>
+            <input type="text" id="endereco" name="endereco" placeholder="Endereço" required>
+            <input type="number" id="cpf" name="cpf" placeholder="CPF" required>
+
+            <!-- <label for="plano">Plano de Assinatura:</label> -->
+            <select id="plano" name="plano" required>
+                <option value="plano0">Escolher Plano</option>
+                <option value="plano1">Revistra Trimestral</option>
+                <option value="plano2">Revistra Anual</option>
+                <option value="plano3">Streamin Trimestral</option>
+                <option value="plano4">Streamin Anual</option>
+                <option value="plano5">Combo Trimestral</option>
+                <option value="plano6">Combo Anual</option>
+            </select>
+
+            <input type="text" id="email" name="email" placeholder="Email" required>
+            <input type="password" id="password" name="password" placeholder="Senha" required>
+            
+
+            <!-- <label for="user">Informações de Pagamento</label>
+            <input type="type" id="payment" name="paymento" placeholder="Tipo de Pagamento" required> -->
+            
+            <div class="pagar">
+                <a onclick="finalizar()" target="_blank">Finalizar</a>
+            </div>
+
+            <!-- <label>Cadastrar</label> -->
+            <!-- <div class="infos">
+                <a href="/cadastrar.html" class="link">Cadastrar</a>
+                <a href="/senha.html" class="link">Esqueci a Senha</a>
+            </div> -->
+            
+        </form>
+    </div>
+
+    <script src="/js/pagamento.js"></script>
+</body>
+</html>

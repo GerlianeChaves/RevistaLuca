@@ -1,0 +1,222 @@
+body {
+    /* background: linear-gradient(to bottom, #000, #111); Adiciona um gradiente sutil de preto (#000) a um preto ligeiramente mais escuro (#111) */
+
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.logoHome {
+    text-align: center; /* Alinhar o conteúdo no centro horizontalmente */
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2; /* soprepor o carrossel */
+}
+
+.logoHome img{
+    max-width: 10%; 
+    max-height: 10%;
+    margin: 0 auto;
+}
+
+/* ----- ICONE MENU NAVBAR ----- */
+.container {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+/* ----- MENU NAVBAR ----- */
+.menuIcon {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    cursor: pointer;
+    z-index: 4;
+}
+
+.menuX {
+    display: none;
+    position: absolute;
+    top: 5%;
+    left: 4%;
+    background-color: black;
+    opacity: 0.75;
+    padding: 3%;
+    z-index: 3;
+}
+
+.menuX.show {
+    display: block;
+}
+
+.textoMenu {
+    text-align: left;
+    font-size: 25px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    list-style: none;
+}
+
+.menuX a {
+    color: white;
+    text-decoration: solid;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* ---- IMAGENS DA PRIMEIRA SEÇÃO */
+.primeira_secao {
+    /* background-image: url(/docs/20230727122109265618o.png); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.carrossel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+/* SEÇÃO FILMES */
+.moviesection{
+    background-color: black;
+    padding: 2%;
+}
+
+.moviesection img{
+    max-width: 85%; 
+    max-height: 70%;
+    /* margin: 10rem 10rem 10rem 10rem; */
+    /* margin: 0 auto; */
+}
+
+/* SEÇÃO ASSINATURA */
+/* CSS para criar as duas colunas */
+.assinatura {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.coluna {
+    flex: 1;
+    text-align: center;
+}
+
+.coluna.imagem img {
+    max-width: 50%;
+    max-height: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.coluna.texto {
+    display: block;
+    /* margin-top: 10px; */
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    margin-right: 100px;
+}
+
+.sub {
+    display: block;
+    font-size: 1.2rem; /* Tamanho da fonte */
+    color: white; /* Cor do texto */
+    font-family: 'Oswald', sans-serif; /* Fonte */
+    margin-top: 10px; /* Espaço superior */
+    text-align: center; /* Alinhamento do texto */
+}
+
+.buttonAss {
+    background-color: white;
+    display: block;
+    padding: 0px 20px;
+    border-radius: 50px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.buttonAss a {
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    transition: background-color 0.3s, color 0.3s; /* Adiciona uma transição suave de 0.3 segundos para a mudança de cor de fundo e texto */
+}
+
+.buttonAss:hover {
+    background-color: red; /* Define a cor de fundo ao passar o mouse */
+    /* color: white; Define a cor do texto ao passar o mouse */
+}
+
+/* RODAPÉ */
+footer{
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.rodape {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilize os links no rodapé */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsivo para dispositivos com largura máxima de 768px */
+@media (max-width: 768px) {
+    .coluna {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .coluna.imagem img {
+        max-width: 70%;
+        max-height: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .coluna.texto {
+        margin-top: 10px;
+    }
+}
