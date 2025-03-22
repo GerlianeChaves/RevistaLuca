@@ -59,11 +59,12 @@ A página exibe:
 
 Aqui estão algumas imagens do site em funcionamento:
 
+#TODO incluir video do site
 
 
-<p align="center">
+<!--<p align="center">
   <img src="docs/siteLuca.gif" alt="Site LUCA" width="400">
-</p>
+</p>-->
 
 Você pode acessar em: https://revistaluca.netlify.app/ 
 
