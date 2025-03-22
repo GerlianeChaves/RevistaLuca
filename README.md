@@ -47,7 +47,7 @@ A página exibe:
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/GerlianeChaves/Repositório da Revista Luca.git
+   git clone https://github.com/GerlianeChaves/RevistaLuca.git
    ```
 2. Acesse a pasta do projeto:
    ```bash
