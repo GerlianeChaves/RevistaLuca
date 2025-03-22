@@ -1,13 +1,13 @@
 <h1 align="center">Revista Digital LUCA</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML-5-orange?style=plastic&logo=html5" alt="HTML">
-  <img src="https://img.shields.io/badge/CSS-3-blue?style=plastic&logo=css3" alt="CSS">
-  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=plastic&logo=javascript" alt="JS">
+  <img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5" alt="HTML">
+  <img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3" alt="CSS">
+  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?style=for-the-badge&logo=javascript" alt="JS">
 </p>
 
 <p align="center">
-  <img src="docs/LUCA.gif" alt="Logo LUCA" width="150">
+  <img src="LUCA.gif" alt="Logo LUCA" width="150">
 </p>
 
 ## 📌 Sobre o Projeto
@@ -62,10 +62,6 @@ A página exibe:
 3. Abra o arquivo `home.html` no navegador.
 
 ## LUCA
-
-Aqui estão algumas imagens do site em funcionamento:
-
-#TODO incluir video do site
 
 
 <!--<p align="center">
