@@ -44,17 +44,16 @@ A página exibe:
 
 ## 📌 Como Executar Localmente
 
-#TODO atualizar repositório
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/LUCA.git
+   git clone https://github.com/GerlianeChaves/Repositório da Revista Luca.git
    ```
 2. Acesse a pasta do projeto:
    ```bash
-   cd LUCA
+   cd RevistaLuca
    ```
-3. Abra o arquivo `index.html` no navegador.
+3. Abra o arquivo `home.html` no navegador.
 
 ## LUCA
 
